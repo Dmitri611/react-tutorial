@@ -19,6 +19,7 @@ class App extends Component {
 
     render() {
         const { data } = this.state;
+        
 
         const result = data.map((entry, index) => {
             console.log(entry);
